@@ -21,19 +21,19 @@ const (
 func TestEventManager(t *testing.T) {
 	mgr := EventManager{}
 	mgr.updateState(StateResuming)
-	if mgr.CurrentState.getState() != StateResuming {
+	if mgr.CurrentState.GetState() != StateResuming {
 		t.Fatal("CurrentState not updated by updateState()")
 	}
 
 	mgr.disconnected(SMState{})
 
-	if mgr.CurrentState.getState() != StateDisconnected {
+	if mgr.CurrentState.GetState() != StateDisconnected {
 		t.Fatalf("CurrentState not reset by disconnected()")
 	}
 
 	mgr.streamError(ErrTLSNotSupported.Error(), "")
 
-	if mgr.CurrentState.getState() != StateStreamError {
+	if mgr.CurrentState.GetState() != StateStreamError {
 		t.Fatalf("CurrentState not set by streamError()")
 	}
 }

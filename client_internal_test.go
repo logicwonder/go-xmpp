@@ -559,7 +559,7 @@ func resumeStream(t *testing.T, sc *ServerConn) {
 
 func checkClientResumeStatus(client *Client, statusCorrectChan chan struct{}, killChan chan struct{}) {
 	for {
-		if client.CurrentState.getState() == StateDisconnected {
+		if client.CurrentState.GetState() == StateDisconnected {
 			statusCorrectChan <- struct{}{}
 		}
 		select {

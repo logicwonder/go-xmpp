@@ -6,7 +6,7 @@ import (
 	"errors"
 	"fmt"
 	"log"
-	"github.com/logicwonder
+	"time"
 
 	"github.com/logicwonder/go-xmpp"
 	"github.com/logicwonder/go-xmpp/stanza"
