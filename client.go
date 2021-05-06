@@ -24,7 +24,7 @@ type SyncConnState struct {
 type ConnState = uint8
 
 // getState is a thread-safe getter for the current state
-func (scs *SyncConnState) getState() ConnState {
+func (scs *SyncConnState) GetState() ConnState {
 	var res ConnState
 	scs.RLock()
 	res = scs.state
