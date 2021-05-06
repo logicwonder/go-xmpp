@@ -4,7 +4,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"v/xmpp/stanza"
+	"github.com/logicwonder/go-xmpp/stanza"
 )
 
 func TestDecodeRequest(t *testing.T) {

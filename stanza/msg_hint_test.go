@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/logicwonder/xmpp/stanza"
+	"github.com/logicwonder/go-xmpp/stanza"
 )
 
 const msg_const = `

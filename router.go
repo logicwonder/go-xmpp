@@ -6,7 +6,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/logicwonder/xmpp/stanza"
+	"github.com/logicwonder/go-xmpp/stanza"
 )
 
 /*
