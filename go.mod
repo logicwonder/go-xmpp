@@ -1,4 +1,4 @@
-module github.com/logicwonder/xmpp
+module github.com/logicwonder/go-xmpp
 
 go 1.13
 
@@ -7,4 +7,5 @@ require (
 	github.com/google/uuid v1.1.1
 	golang.org/x/xerrors v0.0.0-20190717185122-a985d3407aa7
 	nhooyr.io/websocket v1.6.5
+	
 )
