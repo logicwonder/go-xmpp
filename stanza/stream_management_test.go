@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/logicwonder/xmpp/stanza"
+	"github.com/logicwonder/go-xmpp/stanza"
 )
 
 func TestPopEmptyQueue(t *testing.T) {

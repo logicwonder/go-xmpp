@@ -10,7 +10,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/logicwonder/xmpp/stanza"
+	"github.com/logicwonder/go-xmpp/stanza"
 )
 
 // XMPPTransport implements the XMPP native TCP transport

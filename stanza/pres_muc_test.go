@@ -4,7 +4,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/logicwonder/xmpp/stanza"
+	"github.com/logicwonder/go-xmpp/stanza"
 )
 
 // https://xmpp.org/extensions/xep-0045.html#example-27

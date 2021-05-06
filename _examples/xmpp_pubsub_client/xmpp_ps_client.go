@@ -8,8 +8,8 @@ import (
 	"log"
 	"github.com/logicwonder
 
-	"github.com/logicwonder/xmpp"
-	"github.com/logicwonder/xmpp/stanza"
+	"github.com/logicwonder/go-xmpp"
+	"github.com/logicwonder/go-xmpp/stanza"
 )
 
 const (

@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/logicwonder/xmpp/stanza"
+	"github.com/logicwonder/go-xmpp/stanza"
 )
 
 func TestGenerateMessage(t *testing.T) {

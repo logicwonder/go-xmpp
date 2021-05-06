@@ -3,7 +3,7 @@ package stanza_test
 import (
 	"testing"
 
-	"github.com/logicwonder/xmpp/stanza"
+	"github.com/logicwonder/go-xmpp/stanza"
 )
 
 // Limiting the number of items

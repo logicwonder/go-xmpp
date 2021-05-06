@@ -3,8 +3,8 @@ package main
 import (
 	"github.com/bdlm/log"
 
-	"github.com/logicwonder/xmpp"
-	"github.com/logicwonder/xmpp/stanza"
+	"github.com/logicwonder/go-xmpp"
+	"github.com/logicwonder/go-xmpp/stanza"
 )
 
 func joinMUC(c xmpp.Sender, toJID *stanza.Jid) error {

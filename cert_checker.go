@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/logicwonder/xmpp/stanza"
+	"github.com/logicwonder/go-xmpp/stanza"
 )
 
 // TODO: Should I move this as an extension of the client?

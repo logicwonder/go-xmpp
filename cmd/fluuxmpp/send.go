@@ -6,13 +6,13 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/logicwonder/xmpp/stanza"
+	"github.com/logicwonder/go-xmpp/stanza"
 
 	"github.com/bdlm/log"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/logicwonder/xmpp"
+	"github.com/logicwonder/go-xmpp"
 )
 
 var configFile = ""

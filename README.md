@@ -105,8 +105,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/logicwonder/xmpp"
-	"github.com/logicwonder/xmpp/stanza"
+	"github.com/logicwonder/go-xmpp"
+	"github.com/logicwonder/go-xmpp/stanza"
 )
 
 func main() {

@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/logicwonder/xmpp/stanza"
+	"github.com/logicwonder/go-xmpp/stanza"
 )
 
 var submitFormExample = stanza.NewForm([]*stanza.Field{

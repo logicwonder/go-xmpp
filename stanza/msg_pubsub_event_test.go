@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/logicwonder/xmpp/stanza"
+	"github.com/logicwonder/go-xmpp/stanza"
 )
 
 func TestDecodeMsgEvent(t *testing.T) {

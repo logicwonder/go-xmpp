@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/logicwonder/xmpp/stanza"
+	"github.com/logicwonder/go-xmpp/stanza"
 )
 
 func main() {

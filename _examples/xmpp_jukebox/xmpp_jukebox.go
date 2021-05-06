@@ -10,8 +10,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/logicwonder/xmpp"
-	"github.com/logicwonder/xmpp/stanza"
+	"github.com/logicwonder/go-xmpp"
+	"github.com/logicwonder/go-xmpp/stanza"
 	"github.com/processone/mpg123"
 	"github.com/processone/soundcloud"
 )

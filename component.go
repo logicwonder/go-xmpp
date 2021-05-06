@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/logicwonder/xmpp/stanza"
+	"github.com/logicwonder/go-xmpp/stanza"
 )
 
 type ComponentOptions struct {

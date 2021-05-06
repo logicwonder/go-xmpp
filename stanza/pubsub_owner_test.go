@@ -5,7 +5,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/logicwonder/xmpp/stanza"
+	"github.com/logicwonder/go-xmpp/stanza"
 )
 
 // ******************************

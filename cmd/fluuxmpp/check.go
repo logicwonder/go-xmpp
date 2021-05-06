@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/bdlm/log"
-	"github.com/logicwonder/xmpp"
+	"github.com/logicwonder/go-xmpp"
 	"github.com/spf13/cobra"
 )
 

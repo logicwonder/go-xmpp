@@ -124,7 +124,7 @@ package myclient
 import (
 	"encoding/xml"
 
-	"github.com/logicwonder/xmpp/stanza"
+	"github.com/logicwonder/go-xmpp/stanza"
 )
 
 type CustomPayload struct {

@@ -4,7 +4,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/logicwonder/xmpp/stanza"
+	"github.com/logicwonder/go-xmpp/stanza"
 )
 
 // Config & TransportConfiguration must not be modified after having been passed to NewClient. Any
