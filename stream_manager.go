@@ -115,7 +115,7 @@ func (sm *StreamManager) Stop() {
 func (sm *StreamManager) connect() error {
 	if sm.client != nil {
 		if c, ok := sm.client.(*Client); ok {
-			if c.CurrentState.getState() == StateDisconnected {
+			if c.CurrentState.GetState() == StateDisconnected {
 				sm.Metrics = initMetrics()
 				err := c.Connect()
 				if err != nil {
