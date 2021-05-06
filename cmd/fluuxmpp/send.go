@@ -2,16 +2,17 @@ package main
 
 import (
 	"bufio"
-	"gosrc.io/xmpp/stanza"
 	"os"
 	"strings"
 	"sync"
+
+	"github.com/logicwonder/xmpp/stanza"
 
 	"github.com/bdlm/log"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"gosrc.io/xmpp"
+	"github.com/logicwonder/xmpp"
 )
 
 var configFile = ""

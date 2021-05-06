@@ -9,8 +9,8 @@ import (
 	"log"
 	"os"
 
-	"gosrc.io/xmpp"
-	"gosrc.io/xmpp/stanza"
+	"github.com/logicwonder/xmpp"
+	"github.com/logicwonder/xmpp/stanza"
 )
 
 func main() {

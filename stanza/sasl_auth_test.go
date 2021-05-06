@@ -4,7 +4,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"gosrc.io/xmpp/stanza"
+	"github.com/logicwonder/xmpp/stanza"
 )
 
 // Check that we can detect optional session from advertised stream features

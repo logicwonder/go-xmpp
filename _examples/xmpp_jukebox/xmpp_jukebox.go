@@ -10,10 +10,10 @@ import (
 	"os"
 	"strings"
 
+	"github.com/logicwonder/xmpp"
+	"github.com/logicwonder/xmpp/stanza"
 	"github.com/processone/mpg123"
 	"github.com/processone/soundcloud"
-	"gosrc.io/xmpp"
-	"gosrc.io/xmpp/stanza"
 )
 
 // Get the actual song Stream URL from SoundCloud website song URL and play it with mpg123 player.

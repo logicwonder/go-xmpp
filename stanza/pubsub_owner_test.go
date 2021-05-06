@@ -3,8 +3,9 @@ package stanza_test
 import (
 	"encoding/xml"
 	"errors"
-	"gosrc.io/xmpp/stanza"
 	"testing"
+
+	"github.com/logicwonder/xmpp/stanza"
 )
 
 // ******************************

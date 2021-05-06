@@ -4,7 +4,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"gosrc.io/xmpp/stanza"
+	"v/xmpp/stanza"
 )
 
 func TestDecodeRequest(t *testing.T) {

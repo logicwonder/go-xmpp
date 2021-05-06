@@ -3,7 +3,7 @@ package stanza_test
 import (
 	"testing"
 
-	"gosrc.io/xmpp/stanza"
+	"github.com/logicwonder/xmpp/stanza"
 )
 
 // Build a Software Version reply

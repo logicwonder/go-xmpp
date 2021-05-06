@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"gosrc.io/xmpp/stanza"
+	"github.com/logicwonder/xmpp/stanza"
 )
 
 func TestGeneratePresence(t *testing.T) {

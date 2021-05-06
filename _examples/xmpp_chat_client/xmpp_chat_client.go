@@ -10,17 +10,18 @@ import (
 	"errors"
 	"flag"
 	"fmt"
-	"github.com/awesome-gocui/gocui"
-	"github.com/spf13/pflag"
-	"github.com/spf13/viper"
-	"gosrc.io/xmpp"
-	"gosrc.io/xmpp/stanza"
 	"log"
 	"os"
 	"path"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/awesome-gocui/gocui"
+	"github.com/logicwonder/xmpp"
+	"github.com/logicwonder/xmpp/stanza"
+	"github.com/spf13/pflag"
+	"github.com/spf13/viper"
 )
 
 const (

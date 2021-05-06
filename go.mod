@@ -1,4 +1,4 @@
-module gosrc.io/xmpp
+module github.com/logicwonder/xmpp
 
 go 1.13
 

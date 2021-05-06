@@ -2,8 +2,9 @@ package stanza_test
 
 import (
 	"encoding/xml"
-	"gosrc.io/xmpp/stanza"
 	"testing"
+
+	"github.com/logicwonder/xmpp/stanza"
 )
 
 func TestMarshalCommands(t *testing.T) {

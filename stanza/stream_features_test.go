@@ -4,7 +4,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"gosrc.io/xmpp/stanza"
+	"github.com/logicwonder/xmpp/stanza"
 )
 
 func TestNoStartTLS(t *testing.T) {

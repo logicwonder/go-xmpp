@@ -2,9 +2,10 @@ package stanza_test
 
 import (
 	"encoding/xml"
-	"gosrc.io/xmpp/stanza"
 	"strings"
 	"testing"
+
+	"github.com/logicwonder/xmpp/stanza"
 )
 
 func TestDecodeMsgEvent(t *testing.T) {

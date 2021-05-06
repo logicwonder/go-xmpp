@@ -6,7 +6,7 @@ import (
 	"strings"
 	"sync"
 
-	"gosrc.io/xmpp/stanza"
+	"github.com/logicwonder/xmpp/stanza"
 )
 
 /*

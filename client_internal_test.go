@@ -4,10 +4,11 @@ import (
 	"bytes"
 	"encoding/xml"
 	"fmt"
-	"gosrc.io/xmpp/stanza"
 	"strconv"
 	"testing"
 	"time"
+
+	"github.com/logicwonder/xmpp/stanza"
 )
 
 const (

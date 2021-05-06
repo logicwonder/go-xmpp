@@ -4,7 +4,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"gosrc.io/xmpp/stanza"
+	"github.com/logicwonder/xmpp/stanza"
 )
 
 // Test DiscoInfo Builder with several features

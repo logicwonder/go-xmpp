@@ -1,11 +1,12 @@
 package stanza_test
 
 import (
-	"gosrc.io/xmpp/stanza"
 	"math/rand"
 	"reflect"
 	"testing"
 	"time"
+
+	"github.com/logicwonder/xmpp/stanza"
 )
 
 func TestPopEmptyQueue(t *testing.T) {

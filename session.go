@@ -4,8 +4,9 @@ import (
 	"encoding/xml"
 	"errors"
 	"fmt"
-	"gosrc.io/xmpp/stanza"
 	"strconv"
+
+	"github.com/logicwonder/xmpp/stanza"
 )
 
 type Session struct {

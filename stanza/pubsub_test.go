@@ -3,9 +3,10 @@ package stanza_test
 import (
 	"encoding/xml"
 	"errors"
-	"gosrc.io/xmpp/stanza"
 	"strings"
 	"testing"
+
+	"github.com/logicwonder/xmpp/stanza"
 )
 
 var submitFormExample = stanza.NewForm([]*stanza.Field{

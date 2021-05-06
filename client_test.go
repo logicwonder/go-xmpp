@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"gosrc.io/xmpp/stanza"
+	"github.com/logicwonder/xmpp/stanza"
 )
 
 const (

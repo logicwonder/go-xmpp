@@ -7,8 +7,9 @@ import (
 	"encoding/xml"
 	"errors"
 	"fmt"
-	"gosrc.io/xmpp/stanza"
 	"io"
+
+	"github.com/logicwonder/xmpp/stanza"
 )
 
 type ComponentOptions struct {

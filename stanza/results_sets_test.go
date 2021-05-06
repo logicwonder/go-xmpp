@@ -1,8 +1,9 @@
 package stanza_test
 
 import (
-	"gosrc.io/xmpp/stanza"
 	"testing"
+
+	"github.com/logicwonder/xmpp/stanza"
 )
 
 // Limiting the number of items

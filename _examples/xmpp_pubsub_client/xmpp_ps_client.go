@@ -5,10 +5,11 @@ import (
 	"encoding/xml"
 	"errors"
 	"fmt"
-	"gosrc.io/xmpp"
-	"gosrc.io/xmpp/stanza"
 	"log"
-	"time"
+	"github.com/logicwonder
+
+	"github.com/logicwonder/xmpp"
+	"github.com/logicwonder/xmpp/stanza"
 )
 
 const (

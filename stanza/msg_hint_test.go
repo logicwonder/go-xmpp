@@ -2,10 +2,11 @@ package stanza_test
 
 import (
 	"encoding/xml"
-	"gosrc.io/xmpp/stanza"
 	"reflect"
 	"strings"
 	"testing"
+
+	"github.com/logicwonder/xmpp/stanza"
 )
 
 const msg_const = `

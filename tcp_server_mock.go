@@ -3,10 +3,11 @@ package xmpp
 import (
 	"encoding/xml"
 	"fmt"
-	"gosrc.io/xmpp/stanza"
 	"net"
 	"testing"
 	"time"
+
+	"github.com/logicwonder/xmpp/stanza"
 )
 
 //=============================================================================

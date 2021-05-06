@@ -1,9 +1,10 @@
 package xmpp
 
 import (
-	"gosrc.io/xmpp/stanza"
 	"os"
 	"time"
+
+	"github.com/logicwonder/xmpp/stanza"
 )
 
 // Config & TransportConfiguration must not be modified after having been passed to NewClient. Any
